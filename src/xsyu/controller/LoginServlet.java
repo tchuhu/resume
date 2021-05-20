@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+//https://lovetime.gitee.io/weadmin/index.html
 public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -15,6 +16,6 @@ public class LoginServlet extends HttpServlet {
         String userId = req.getParameter("userId");
         String userPwd = req.getParameter("userPwd");
         System.out.println("userid:"+userId+",userPwd:"+userPwd);
-        req.getRequestDispatcher("/page/home.jsp").forward(req,resp);
+        req.getRequestDispatcher("/pages/main.jsp").forward(req,resp);
     }
 }

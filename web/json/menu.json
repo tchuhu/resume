@@ -1,0 +1,16 @@
+{
+	"status": 0,
+	"msg": "ok",
+	"data": [{
+			"id": 1,
+			"name": "简历管理",
+			"icon": "&#xe6b8;",
+			"url": "",
+			"children": [{
+				"id": 2,
+				"name": "简历列表",
+				"icon": "",
+				"url": "./pages/resume/list.jsp"
+			}]
+		}]
+}
